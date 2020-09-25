@@ -1,0 +1,26 @@
+.mento-form-status {
+  &__input {
+    display: flex;
+    justify-content: flex-start;
+    width: 7rem;
+  }
+}
+
+.mento-form-profile__form-item:nth-child(2)
+  .ant-form-item-control
+  .ant-form-item-control-input
+  .ant-form-item-control-input-content {
+  justify-content: flex-start;
+}
+
+.ant-form-item-has-error .ant-input,
+.ant-form-item-has-error .ant-input-affix-wrapper,
+.ant-form-item-has-error .ant-input:hover,
+.ant-form-item-has-error .ant-input-affix-wrapper:hover {
+  border-color: #ff4d4f;
+  box-shadow: none;
+}
+
+.ant-form-item-control-input-content:not(:last-child) {
+  justify-content: flex-start;
+}

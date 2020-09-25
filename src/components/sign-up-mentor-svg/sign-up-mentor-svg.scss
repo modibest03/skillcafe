@@ -1,0 +1,21 @@
+.sign-up-mentor-svg {
+  padding: 6.9rem;
+  background-color: #a3e7d6;
+
+  flex-basis: 50%;
+
+  &__img {
+    width: 90%;
+
+    &-box {
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.7rem;
+    color: #00000099;
+    letter-spacing: 0.23px;
+  }
+}

@@ -1,0 +1,32 @@
+.sign-up-sub {
+  flex: 1 1 200px;
+  padding-left: 2.4rem;
+
+  &__form {
+    &-svg {
+      background-color: #902df4;
+      color: #ffffff;
+      padding: 1.5rem;
+      font-size: 3.531rem;
+      border-radius: 4px;
+
+      &__box {
+        transform: translateY(-2rem);
+      }
+    }
+  }
+
+  &__text {
+    &-box {
+      font-size: 1.6rem;
+      color: #00000099;
+      margin-bottom: 3rem;
+    }
+
+    &-bg {
+      display: block;
+      font-size: 2.4rem;
+      color: #313030de;
+    }
+  }
+}

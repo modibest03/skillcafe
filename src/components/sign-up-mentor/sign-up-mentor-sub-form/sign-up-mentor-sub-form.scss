@@ -1,0 +1,39 @@
+.sign-up-sub-form {
+  &__input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+      border-color: #8d48ec;
+      box-shadow: 0.5px 0.5px 5px 0.1px#8d48ec;
+    }
+
+    &:focus {
+      border-color: #8d48ec;
+      box-shadow: 0.5px 0.5px 5px 0.1px#8d48ec;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #6200ee;
+
+    width: 100%;
+    padding: 2rem;
+
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #7f2ff0;
+      transition: all 0.3s;
+    }
+
+    &:focus {
+      background-color: #7f2ff0;
+      transition: all 0.3s;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.sign-up-profile-sub {
+  flex-grow: 1;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.sign-up-mentor-form-header {
+  &__text {
+    color: #2c2b2bde;
+    font-size: 2rem;
+    letter-spacing: 0.26px;
+
+    &-bg {
+      font-size: 3.4rem;
+      display: block;
+    }
+  }
+}
